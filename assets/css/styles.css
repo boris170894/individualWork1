@@ -1,3 +1,42 @@
+@import url(./default.css);
+
 header{
-    
+    width: 100%;
+    background-image: url(../img/imgBackground1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22px 0 99px 0;
+    color: #fafafa;
+}
+
+.main-menu{
+    margin-bottom: 150px;
+}
+
+nav{
+    width: 18%;
+}
+
+nav a{
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header .vertical-container{
+    width: 50%;
+}
+
+header .vertical-container h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95px;
+    margin-bottom: 50px;
+}
+
+header .vertical-container p{
+    width: 50%;
+    font-size: 25px;
+    font-weight: 400;
 }
