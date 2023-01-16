@@ -29,6 +29,7 @@ header .vertical-container{
 }
 
 header .vertical-container h1{
+    font-family: 'Playfair Display';
     font-size: 70px;
     font-weight: 700;
     line-height: 95px;
@@ -38,5 +39,43 @@ header .vertical-container h1{
 header .vertical-container p{
     width: 50%;
     font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.horisontal-container.btns{
+    width: 90%;
+    margin-bottom: 120px;
+}
+
+.btns .btn{
+    color: black;
+    background-color: #DD9428;
+}
+
+.btns .horisontal-container{
+    justify-content: flex-start;
+}
+
+.btns .horisontal-container span{
+    color: #A1A8B6;
+    font-size: 16px;
+    font-weight: 500;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.social{
+    width: 22%;    
+}
+
+.social .horisontal-container{
+    width: 92%;
+}
+
+.social .social-p{
+    width: 100%;
+    margin-bottom: 19px;
+    font-size: 14px;
     font-weight: 400;
 }
