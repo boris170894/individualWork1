@@ -9,6 +9,7 @@ header{
     background-size: cover;
     padding: 22px 0 99px 0;
     color: #fafafa;
+    margin-bottom: 160px;
 }
 
 .main-menu{
@@ -79,4 +80,30 @@ header .vertical-container p{
     margin-bottom: 19px;
     font-size: 14px;
     font-weight: 400;
+}
+
+/* Второй экран */
+section{
+    padding-bottom: 160px;
+}
+
+/* footer */
+footer{
+    background-color: #f8f8f8;
+    padding: 74px 120px;
+}
+
+.footer-info{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info p{
+    width: 25%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #90A4B2;
 }

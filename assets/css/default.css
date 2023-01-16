@@ -11,6 +11,10 @@ a{
     text-decoration: none;
 }
 
+section{
+    padding-bottom: 160px;
+}
+
 .horisontal-container{
     display: flex;
     justify-content: space-between;
@@ -28,9 +32,20 @@ a{
     margin: 0 auto;
 }
 
+.wrapper-medium{
+    width: 72%;
+    margin: 0 auto;
+}
+
 .btn{
     padding: 25px 46px 25px 46px;
     border-radius: 38px;
     font-size: 20px;
     font-weight: 600;
+}
+
+.cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
