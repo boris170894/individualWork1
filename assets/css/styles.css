@@ -1,6 +1,7 @@
 @import url(./default.css);
 @import url(./fonts.css);
 
+/* HEADER */
 header{
     width: 100%;
     background-image: url(../img/imgBackground1.png);
@@ -81,12 +82,9 @@ header .vertical-container p{
     font-size: 14px;
     font-weight: 400;
 }
+/* HEADER END */
 
-/* 2 экран */
-.section2 .cover{
-    background-image: url("../img/imghaw1.png");
-}
-
+/* COVER AND DESCRIPTION*/
 .cover .vertical-container h3{
     font-family: 'Playfair Display';
     font-size: 23px;
@@ -104,9 +102,62 @@ header .vertical-container p{
     line-height: 29px;
     width: 40%;
 }
+
+.descrtiption{
+    width: 35%;
+}
+
+.descrtiption h2{
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+
+.descrtiption p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 96px;
+}
+
+.descrtiption .btn{
+/*     padding: 25px 66px; */
+    border: 2px solid #DD9428;
+    color: #DD9428;
+
+}
+/* COVER AND DESCRIPTION END*/
+
+/* 2 экран */
+.section2 .wrapper-medium{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2 .cover{
+    background-image: url("../img/imghaw1.png");
+}
+/* 2 экран end*/
+
 /* 3 экран */
 
 /* 4 экран */
+.section4 .wrapper-medium{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4 .cover{
+    background-image: url("../img/imgHawaii2.png");
+}
+
+.section4 .horisontal-container p{
+    width: 50%;
+}
 
 /* footer */
 footer{
@@ -132,3 +183,4 @@ footer{
 .footer-social{
     width: 12%;
 }
+/* footer end*/

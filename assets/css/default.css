@@ -45,8 +45,8 @@ section{
 }
 
 .cover{
-    max-width: 50%;
-    height: 350px;
+    width: 50%;
+    height: 400px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
