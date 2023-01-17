@@ -12,7 +12,7 @@ a{
 }
 
 section{
-    padding-bottom: 160px;
+    margin-bottom: 160px;
 }
 
 .horisontal-container{
@@ -35,6 +35,13 @@ section{
 .wrapper-medium{
     width: 72%;
     margin: 0 auto;
+}
+
+.wrapper-small{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 .btn{

@@ -143,6 +143,67 @@ header .vertical-container p{
 /* 2 экран end*/
 
 /* 3 экран */
+.section3{
+    width: 100%;
+    background-image: url('../img/imgForm1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 133px 0 52px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section3 .descrtiption{
+    width: 48%;
+}
+
+.section3 .descrtiption p{
+    width: 45%;
+}
+
+.contact-form{
+    width: 30%;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form form>input{
+    border-radius: 38px;
+    margin-bottom: 20px;
+    border: 2px solid #CED8DF;
+    color: #CED8DF;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px 20px;
+}
+
+.contact-form form .btn{
+    width: 287px;
+    padding: 25px 0;
+    text-align: center;
+    color: black;
+    background-color: #DD9428;
+    margin-bottom: 10px;
+}
+
+.contact-form form p{
+    width: 75%;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.contact-form form a{
+    color: #DD9428;
+}
+
+/* 3 экран end*/
 
 /* 4 экран */
 .section4 .wrapper-medium{
@@ -158,6 +219,7 @@ header .vertical-container p{
 .section4 .horisontal-container p{
     width: 50%;
 }
+/* 4 экран end*/
 
 /* footer */
 footer{
