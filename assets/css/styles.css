@@ -83,7 +83,27 @@ header .vertical-container p{
 }
 
 /* 2 экран */
+.section2 .cover{
+    background-image: url("../img/imghaw1.png");
+}
 
+.cover .vertical-container h3{
+    font-family: 'Playfair Display';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.cover .vertical-container p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cover .horisontal-container p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    width: 40%;
+}
 /* 3 экран */
 
 /* 4 экран */

@@ -45,7 +45,18 @@ section{
 }
 
 .cover{
+    max-width: 50%;
+    height: 350px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: #fafafa;
+    padding: 60px 60px;
+    border-radius: 16px;
 }
+
+.cover .vertical-container{
+    width: 100%;
+    height: 100%;
+}
+
