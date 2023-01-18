@@ -25,10 +25,19 @@ nav a{
     color: #fafafa;
     font-size: 15px;
     font-weight: 500;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #DD9428;
 }
 
 header .vertical-container{
     width: 50%;
+}
+
+.burger{
+    cursor: pointer;
 }
 
 header .vertical-container h1{
@@ -56,6 +65,16 @@ header .vertical-container p{
     background-color: #DD9428;
 }
 
+.btns .btn:hover{
+    border: 2px #DD9428 solid;
+    color: #DD9428;
+    background-color: transparent;
+}
+
+.btns svg:hover{
+    cursor: pointer;
+}
+
 .btns .horisontal-container{
     justify-content: flex-start;
 }
@@ -70,6 +89,10 @@ header .vertical-container p{
 
 .social{
     width: 25%;    
+}
+
+.social svg:hover{
+    cursor: pointer;
 }
 
 .social .horisontal-container{
@@ -103,6 +126,15 @@ header .vertical-container p{
     width: 40%;
 }
 
+.cover svg>path{
+    transition: 0.5s;
+}
+
+.cover svg:hover>path{
+    cursor: pointer;
+    fill: #DD9428;
+}
+
 .descrtiption{
     width: 35%;
 }
@@ -126,8 +158,13 @@ header .vertical-container p{
 /*     padding: 25px 66px; */
     border: 2px solid #DD9428;
     color: #DD9428;
-
 }
+
+.descrtiption .btn:hover{
+    /*     padding: 25px 66px; */
+    color: black;
+    background-color: #DD9428;
+    }
 /* COVER AND DESCRIPTION END*/
 
 /* 2 экран */
@@ -190,7 +227,11 @@ header .vertical-container p{
     background-color: #DD9428;
     margin-bottom: 10px;
 }
-
+.contact-form form .btn:hover{
+    border: 2px #DD9428 solid;
+    color: #DD9428;
+    background-color: transparent;
+}
 .contact-form form p{
     width: 75%;
     font-size: 11px;
@@ -244,5 +285,9 @@ footer{
 
 .footer-social{
     width: 12%;
+}
+
+.footer-social svg:hover{
+    cursor: pointer;
 }
 /* footer end*/

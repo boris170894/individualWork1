@@ -49,6 +49,7 @@ section{
     border-radius: 38px;
     font-size: 20px;
     font-weight: 600;
+    transition: 0.5s;
 }
 
 .cover{
